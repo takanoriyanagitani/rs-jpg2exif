@@ -3,7 +3,16 @@ name = "rs-jpg2exif"
 version = "0.1.0"
 edition = "2024"
 
+description = "Prints the exif bytes of the jpg image."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-jpg2exif"
+homepage = "https://github.com/takanoriyanagitani/rs-jpg2exif"
+documentation = "https://docs.rs/rs-jpg2exif/latest"
+keywords = ["jpeg", "exif", "wasi", "jpg", "image"]
+
 exclude = [
+    "rs-jpg2exif.wasm",
+    "opt.wasm",
 ]
 
 [lints.rust]
